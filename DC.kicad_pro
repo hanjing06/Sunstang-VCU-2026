@@ -454,7 +454,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -685,6 +685,132 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L_min",
+          "name": "L_min",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L_nom",
+          "name": "L_nom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "A_min",
+          "name": "A_min",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D_max",
+          "name": "D_max",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D_min",
+          "name": "D_min",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D_nom",
+          "name": "D_nom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "A_nom",
+          "name": "A_nom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E_max",
+          "name": "E_max",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E_min",
+          "name": "E_min",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E_nom",
+          "name": "E_nom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L1_max",
+          "name": "L1_max",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L1_min",
+          "name": "L1_min",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L1_nom",
+          "name": "L1_nom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "A_max",
+          "name": "A_max",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L_max",
+          "name": "L_max",
           "show": false
         }
       ],
