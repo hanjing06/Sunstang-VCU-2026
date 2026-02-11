@@ -9597,7 +9597,7 @@
 	)
 	(rectangle
 		(start 96.52 20.32)
-		(end 267.97 105.41)
+		(end 223.52 105.41)
 		(stroke
 			(width 0)
 			(type default)
@@ -10246,16 +10246,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 93.98) (xy 238.76 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fa41516-d9ee-48ca-a1ad-ebaaf49ae961")
-	)
-	(wire
-		(pts
 			(xy 17.78 53.34) (xy 35.56 53.34)
 		)
 		(stroke
@@ -10573,16 +10563,6 @@
 			(type default)
 		)
 		(uuid "3c813b0b-e253-49f7-b710-02894c2291ce")
-	)
-	(wire
-		(pts
-			(xy 220.98 41.91) (xy 237.49 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c8d42c9-15a5-4029-9e8f-3f22c1bac11a")
 	)
 	(wire
 		(pts
@@ -10926,16 +10906,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 88.9) (xy 238.76 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b375b98-08d4-4c65-9229-c15da1d5d9a7")
-	)
-	(wire
-		(pts
 			(xy -29.21 194.31) (xy -27.94 194.31)
 		)
 		(stroke
@@ -10963,16 +10933,6 @@
 			(type default)
 		)
 		(uuid "6fc1e415-8843-4414-8d20-e4c51721832f")
-	)
-	(wire
-		(pts
-			(xy 175.26 93.98) (xy 191.77 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "701d2b5a-d508-4afe-96fa-fc253939c98d")
 	)
 	(wire
 		(pts
@@ -11186,16 +11146,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 62.23) (xy 237.49 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d27e60c-72f8-4686-8e4d-35e1eed06e95")
-	)
-	(wire
-		(pts
 			(xy 29.21 -44.45) (xy 11.43 -44.45)
 		)
 		(stroke
@@ -11326,16 +11276,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 88.9) (xy 191.77 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1de6d8e-40eb-4665-bc6a-672096dd64bb")
-	)
-	(wire
-		(pts
 			(xy 370.84 86.36) (xy 378.46 86.36)
 		)
 		(stroke
@@ -11453,16 +11393,6 @@
 			(type default)
 		)
 		(uuid "bd2a25e0-fbb8-4e0b-be6d-87be174a7636")
-	)
-	(wire
-		(pts
-			(xy 220.98 36.83) (xy 237.49 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c05e2ce0-7abe-4703-8390-3fbc69a27e56")
 	)
 	(wire
 		(pts
@@ -11753,16 +11683,6 @@
 			(type default)
 		)
 		(uuid "e4f56713-f2e8-48f8-a2a4-9d9949ab6b12")
-	)
-	(wire
-		(pts
-			(xy 220.98 67.31) (xy 237.49 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e602a96e-7c50-418c-a102-853d36e0aa0a")
 	)
 	(wire
 		(pts
@@ -12133,16 +12053,6 @@
 			(justify left bottom)
 		)
 		(uuid "1e67d5a8-015e-4ebf-885c-5ee0c4b8ce33")
-	)
-	(label "SolarBtn"
-		(at 220.98 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1fa48197-929d-4c0a-a5a1-05bbac0113af")
 	)
 	(label "BrakeLightNeg"
 		(at 29.21 -46.99 180)
@@ -12824,16 +12734,6 @@
 		)
 		(uuid "bdfe23e9-3f0b-41f9-9936-0a3f87b95aca")
 	)
-	(label "SolarBtn"
-		(at 175.26 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "be5eb86f-0c3a-4956-b592-2591f449138e")
-	)
 	(label "CAN_L"
 		(at -25.4 -35.56 180)
 		(effects
@@ -12963,16 +12863,6 @@
 			(justify right bottom)
 		)
 		(uuid "cad3d20d-eea7-4101-9452-a8b0bcd73d09")
-	)
-	(label "SolarBtn"
-		(at 220.98 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cc570c9f-be6f-4f36-acd9-11c91304d488")
 	)
 	(label "I2C1_CLK"
 		(at 314.96 107.95 0)
@@ -13214,16 +13104,6 @@
 		)
 		(uuid "fc85e2a7-23bd-4f7c-a71d-35cd8be6b0b2")
 	)
-	(label "SolarBtn"
-		(at 222.25 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fcd68889-bb2b-45b0-b14f-f4ff00fa821f")
-	)
 	(label "LSignalLightIn"
 		(at -27.94 205.74 0)
 		(effects
@@ -13431,72 +13311,6 @@
 			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 220.98 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d07b87b-0032-4d0a-a962-f7f0bae6c270")
-		(property "Reference" "#PWR064"
-			(at 224.79 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 225.806 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 220.98 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "efa5363f-a061-49e2-9b28-b6546bf5b03d")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -13889,153 +13703,6 @@
 			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LP6OA2ASRG:LP6OA2ASRG")
-		(at 238.76 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14ada1e6-851d-4ccd-86f5-bcb2ec521ec2")
-		(property "Reference" "S9"
-			(at 251.46 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LP6OA2ASRG"
-			(at 251.46 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LP6OA2ASRG"
-			(at 260.35 183.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/LP6OA2ASRG.pdf"
-			(at 260.35 283.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PUSHBUTTON, 12mA, 12VDC DPST, Off-(On) Through Hole"
-			(at 238.76 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "20.7"
-			(at 260.35 483.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "612-LP6OA2ASRG"
-			(at 260.35 583.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/LP6OA2ASRG?qs=QtyuwXswaQg%2FjbtHLYNftA%3D%3D"
-			(at 260.35 683.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "E-Switch"
-			(at 260.35 783.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LP6OA2ASRG"
-			(at 260.35 883.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "3704903b-5746-42a1-9918-d743fb611469")
-		)
-		(pin "L1"
-			(uuid "2270a1d4-f49f-4076-8ff5-17899ddcecf2")
-		)
-		(pin "LC1"
-			(uuid "553481e8-e272-4cd8-a889-524025efe4f7")
-		)
-		(pin "3"
-			(uuid "56709a9a-81b4-43d0-97ca-89cc5f62e8da")
-		)
-		(pin "L2"
-			(uuid "a6a2aaee-3caf-465d-b4a3-d8a0c63869b0")
-		)
-		(pin "1"
-			(uuid "2b296d1a-ffa4-411c-9d7b-ab538e17f04e")
-		)
-		(pin "MH1"
-			(uuid "2af7cf50-6609-4fdb-b6e0-363f115e30de")
-		)
-		(pin "MH3"
-			(uuid "f24549ac-d87e-40f5-9cf2-7fe75edb24a2")
-		)
-		(pin "2"
-			(uuid "f1fa5417-9c3f-40f6-a6b0-3833dc626ad9")
-		)
-		(pin "MH2"
-			(uuid "a6967cc2-9800-4022-ad77-060b38768115")
-		)
-		(pin "MH4"
-			(uuid "916bdbda-4e8a-4fc4-ad7c-09331d59d446")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "S9")
 					(unit 1)
 				)
 			)
@@ -17910,219 +17577,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LP6OA2ASRG:LP6OA2ASRG")
-		(at 237.49 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "557c476d-7b50-4430-9d05-8029de1a7f99")
-		(property "Reference" "S8"
-			(at 250.19 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LP6OA2ASRG"
-			(at 250.19 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LP6OA2ASRG"
-			(at 259.08 157.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/LP6OA2ASRG.pdf"
-			(at 259.08 257.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PUSHBUTTON, 12mA, 12VDC DPST, Off-(On) Through Hole"
-			(at 237.49 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "20.7"
-			(at 259.08 457.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "612-LP6OA2ASRG"
-			(at 259.08 557.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/LP6OA2ASRG?qs=QtyuwXswaQg%2FjbtHLYNftA%3D%3D"
-			(at 259.08 657.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "E-Switch"
-			(at 259.08 757.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LP6OA2ASRG"
-			(at 259.08 857.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a14e6b6b-f885-41bf-a5be-5b42742277af")
-		)
-		(pin "L1"
-			(uuid "b892437f-8d2b-4b22-b179-10923ce79cdf")
-		)
-		(pin "LC1"
-			(uuid "03006ec1-11eb-4c11-8d77-3675d4600d2e")
-		)
-		(pin "3"
-			(uuid "ec2f4a9c-1353-4fef-9832-fce280fa1400")
-		)
-		(pin "L2"
-			(uuid "594ba2c4-7d5c-4cea-a7aa-6b1e66cf8616")
-		)
-		(pin "1"
-			(uuid "3d0d9632-8ab5-4360-99ab-bcf82357fbe0")
-		)
-		(pin "MH1"
-			(uuid "43a95aa1-a1f4-40ed-a041-77c0b63027c4")
-		)
-		(pin "MH3"
-			(uuid "322081b6-80e8-4898-992a-56d96b894fcb")
-		)
-		(pin "2"
-			(uuid "33656219-d843-4e1d-b159-dbb4fac526fb")
-		)
-		(pin "MH2"
-			(uuid "594f7ac6-fb8f-4008-a1ef-c529db481aac")
-		)
-		(pin "MH4"
-			(uuid "9a1eb825-0bd6-4a6e-9f4a-7d859f380432")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "S8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 220.98 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55d94e3f-0c4c-4d6a-b39c-ce29c8c5f145")
-		(property "Reference" "#PWR063"
-			(at 224.79 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 225.806 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 220.98 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31c44ffe-cae5-4555-84c3-5c632ca07624")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 26.67 279.4 90)
 		(unit 1)
@@ -19267,153 +18721,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LP6OA2ASRG:LP6OA2ASRG")
-		(at 191.77 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6dc79581-16cd-42af-ba88-1b7af757ab9a")
-		(property "Reference" "S6"
-			(at 204.47 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LP6OA2ASRG"
-			(at 204.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LP6OA2ASRG"
-			(at 213.36 183.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/LP6OA2ASRG.pdf"
-			(at 213.36 283.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PUSHBUTTON, 12mA, 12VDC DPST, Off-(On) Through Hole"
-			(at 191.77 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "20.7"
-			(at 213.36 483.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "612-LP6OA2ASRG"
-			(at 213.36 583.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/LP6OA2ASRG?qs=QtyuwXswaQg%2FjbtHLYNftA%3D%3D"
-			(at 213.36 683.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "E-Switch"
-			(at 213.36 783.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LP6OA2ASRG"
-			(at 213.36 883.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a5c4e9ec-dc86-4f5d-b440-f132853bb7bf")
-		)
-		(pin "L1"
-			(uuid "8774e9de-7913-431f-be03-a9d9400502c4")
-		)
-		(pin "LC1"
-			(uuid "4b72c6c3-f440-41d1-b1b4-64da6ff68607")
-		)
-		(pin "3"
-			(uuid "3c1811ea-2f53-41fd-b65f-f79a95e22181")
-		)
-		(pin "L2"
-			(uuid "1834622d-4036-4983-8a91-a135cdf4258b")
-		)
-		(pin "1"
-			(uuid "8671d429-95ef-4ac4-a155-4bf99e88a759")
-		)
-		(pin "MH1"
-			(uuid "a3ef0723-29e1-4006-894a-26daca385da9")
-		)
-		(pin "MH3"
-			(uuid "2749c484-3e8e-45cd-b722-ddb0db01b1c6")
-		)
-		(pin "2"
-			(uuid "6404e3e0-e8b8-4841-962e-4a7e14a3365a")
-		)
-		(pin "MH2"
-			(uuid "37e5d5d5-ffb1-40c8-8281-9d2366229cc3")
-		)
-		(pin "MH4"
-			(uuid "fd59b52f-64fc-49e7-8481-74707739fd88")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "S6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DC_Parts:R")
 		(at 140.97 251.46 90)
 		(unit 1)
@@ -19770,72 +19077,6 @@
 			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 222.25 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a5f1d68-1c3e-4d7c-8bb2-cfc8d8451f5d")
-		(property "Reference" "#PWR065"
-			(at 226.06 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 227.076 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 222.25 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b2ede9f9-c509-4651-87f1-90d29147036e")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -22119,153 +21360,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LP6OA2ASRG:LP6OA2ASRG")
-		(at 237.49 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aec47650-b062-4087-b7cb-a84fe08f483a")
-		(property "Reference" "S7"
-			(at 250.19 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LP6OA2ASRG"
-			(at 250.19 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LP6OA2ASRG"
-			(at 259.08 131.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/LP6OA2ASRG.pdf"
-			(at 259.08 231.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PUSHBUTTON, 12mA, 12VDC DPST, Off-(On) Through Hole"
-			(at 237.49 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "20.7"
-			(at 259.08 431.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "612-LP6OA2ASRG"
-			(at 259.08 531.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/LP6OA2ASRG?qs=QtyuwXswaQg%2FjbtHLYNftA%3D%3D"
-			(at 259.08 631.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "E-Switch"
-			(at 259.08 731.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LP6OA2ASRG"
-			(at 259.08 831.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "d8ec88b9-ba6e-4122-b81e-82987e94bc8e")
-		)
-		(pin "L1"
-			(uuid "ae7c5c6b-f230-47c7-a023-c23ddbfc9b98")
-		)
-		(pin "LC1"
-			(uuid "03cc554d-09ee-458d-a3b0-387b5a204603")
-		)
-		(pin "3"
-			(uuid "497e3e3c-7511-49ea-9182-7de94b626169")
-		)
-		(pin "L2"
-			(uuid "1b34f549-cabf-4611-b0de-aced3be245d9")
-		)
-		(pin "1"
-			(uuid "082dd7e7-748e-4993-b733-178a96beedbc")
-		)
-		(pin "MH1"
-			(uuid "35daa771-a841-433f-a77f-660ca633343a")
-		)
-		(pin "MH3"
-			(uuid "c17c19cf-21ec-483f-bebe-abd802fc8366")
-		)
-		(pin "2"
-			(uuid "c133214f-a7a7-4327-8d8f-bae2e334be45")
-		)
-		(pin "MH2"
-			(uuid "af778cf6-b196-4ab0-ad75-d3d87e38e435")
-		)
-		(pin "MH4"
-			(uuid "f7745ed1-6d20-4a56-bc93-84ffb451c919")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "S7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DC_Parts:R")
 		(at -33.02 262.89 270)
 		(unit 1)
@@ -24154,72 +23248,6 @@
 			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 175.26 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ced7f06b-5789-4e49-8d3a-af8d30eba463")
-		(property "Reference" "#PWR062"
-			(at 179.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 180.086 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 175.26 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2437b5ed-c852-47dc-b290-ae4372e59221")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR062")
 					(unit 1)
 				)
 			)
