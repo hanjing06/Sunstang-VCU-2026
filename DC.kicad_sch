@@ -14478,16 +14478,6 @@
 		)
 		(uuid "a33b8e7f-1289-4366-8624-abb66aa97e56")
 	)
-	(label "+3V3"
-		(at 351.79 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a7d56685-62c7-43ba-bf36-0ae4ced30332")
-	)
 	(label "RSignalLightNeg"
 		(at 92.71 62.23 0)
 		(effects
@@ -24813,6 +24803,73 @@
 			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 351.79 153.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfc08eaf-22f3-47d1-85aa-e6fe0038162f")
+		(property "Reference" "#PWR018"
+			(at 347.98 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 355.6 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 351.79 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e107ec43-e63e-45a9-87f8-b5ff2e370f34")
+		)
+		(instances
+			(project ""
+				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
