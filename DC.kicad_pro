@@ -41,11 +41,11 @@
           "height": 2.0,
           "width": 8.0
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.2,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_size_h": 1.25,
+        "silk_text_size_v": 1.25,
+        "silk_text_thickness": 0.2,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 1.0
@@ -134,11 +134,11 @@
         "min_microvia_drill": 0.3,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.2,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.3,
-        "min_via_annular_width": 0.25,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -189,7 +189,9 @@
       ],
       "track_widths": [
         0.0,
-        0.3
+        0.3,
+        0.5,
+        1.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -221,6 +223,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         },
         {
           "diameter": 0.8,
@@ -261,25 +267,11 @@
         0,
         0,
         0,
-        1,
         0,
         0,
         0,
         0,
-        2
-      ],
-      [
         0,
-        2,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        2,
-        2,
-        2,
         2
       ],
       [
@@ -289,35 +281,7 @@
         0,
         0,
         0,
-        1,
         0,
-        1,
-        0,
-        1,
-        2
-      ],
-      [
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        2,
-        1,
-        1,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
         0,
         0,
         0,
@@ -339,27 +303,13 @@
         2
       ],
       [
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        2
-      ],
-      [
         0,
         0,
         0,
-        1,
         0,
         0,
-        1,
+        0,
+        0,
         0,
         0,
         0,
@@ -368,42 +318,98 @@
       ],
       [
         0,
-        2,
-        1,
-        2,
         0,
         0,
-        1,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      [
-        0,
-        2,
-        0,
-        1,
         0,
         0,
-        1,
         0,
-        2,
+        0,
+        0,
+        0,
         0,
         0,
         2
       ],
       [
         0,
-        2,
-        1,
-        1,
         0,
         0,
-        1,
         0,
-        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         2
@@ -471,8 +477,13 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "DriverControlsLib",
+      "LV_Switch"
+    ],
+    "pinned_symbol_libs": [
+      "DriverControlsLib"
+    ]
   },
   "meta": {
     "filename": "DC.kicad_pro",
@@ -522,7 +533,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "DC.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -559,7 +570,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
