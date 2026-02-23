@@ -4414,7 +4414,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DriverControlsLib:C1F_3"
+		(symbol "DriverControlsLib:C1F_250"
 			(pin_names
 				(offset 0.254)
 			)
@@ -4429,12 +4429,13 @@
 					)
 				)
 			)
-			(property "Value" "C1F 3"
+			(property "Value" "C1F 250"
 				(at 5.08 -3.175 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "DriverControlsLib:C1_BEL"
@@ -4447,7 +4448,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "C1F 3"
+			(property "Datasheet" "C1F 250"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4466,7 +4467,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "C1F 3"
+			(property "ki_keywords" "C1F 250"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4484,7 +4485,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C1F_3_0_1"
+			(symbol "C1F_250_0_1"
 				(arc
 					(start 2.54 0)
 					(mid 3.81 1.2645)
@@ -4542,6 +4543,16 @@
 							(font
 								(size 1.27 1.27)
 							)
+						)
+					)
+				)
+			)
+			(symbol "C1F_250_1_1"
+				(text "250 mA"
+					(at 5.334 -2.794 0)
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -10636,7 +10647,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DriverControlsLib:RC1206FR-102K2L"
+		(symbol "DriverControlsLib:RC1206FR-073K3L"
 			(pin_names
 				(offset 0.254)
 			)
@@ -10651,15 +10662,16 @@
 					)
 				)
 			)
-			(property "Value" "RC1206FR-102K2L"
+			(property "Value" "RC1206FR-073K3L"
 				(at 6.35 -3.81 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "RES_RC1206_YAG"
+			(property "Footprint" "DriverControlsLib:RC1206N_YAG"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10669,7 +10681,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "RC1206FR-102K2L"
+			(property "Datasheet" "RC1206FR-073K3L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10688,15 +10700,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "RC1206FR-102K2L"
+			(property "ki_keywords" "RC1206FR-073K3L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10705,7 +10709,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "RES_RC1206_YAG RES_RC1206_YAG-M RES_RC1206_YAG-L"
+			(property "ki_fp_filters" "RC1206N_YAG RC1206N_YAG-M RC1206N_YAG-L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10714,7 +10718,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RC1206FR-102K2L_1_1"
+			(symbol "RC1206FR-073K3L_1_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 3.175 1.27)
@@ -10799,6 +10803,14 @@
 						(type none)
 					)
 				)
+				(text "3.3kOhm\n"
+					(at 6.604 -3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(pin unspecified line
 					(at 0 0 0)
 					(length 2.54)
@@ -10809,7 +10821,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10827,7 +10839,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10836,7 +10848,7 @@
 					)
 				)
 			)
-			(symbol "RC1206FR-102K2L_1_2"
+			(symbol "RC1206FR-073K3L_1_2"
 				(polyline
 					(pts
 						(xy -1.27 8.255) (xy 1.27 9.525)
@@ -12744,7 +12756,7 @@
 	)
 	(text "GearSelectDial\n"
 		(exclude_from_sim no)
-		(at 288.798 80.264 0)
+		(at 250.19 75.184 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12863,12 +12875,6 @@
 		(uuid "1184fe88-efec-4de2-91c5-d9a53010b833")
 	)
 	(junction
-		(at 368.3 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "125f269b-98b5-43fa-85ef-69ea6a590c0a")
-	)
-	(junction
 		(at 142.24 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12879,6 +12885,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c58103c-5816-4ec2-ac61-35297db7f6e0")
+	)
+	(junction
+		(at 382.27 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e9e8e6b-521c-4b17-a7ac-891364c4bb76")
 	)
 	(junction
 		(at 158.75 195.58)
@@ -12905,12 +12917,6 @@
 		(uuid "7a6fa92d-c118-4736-88e9-176eea3ac885")
 	)
 	(junction
-		(at 213.36 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e7fa577-1b38-43ec-86d8-53ead8e63455")
-	)
-	(junction
 		(at 218.44 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12927,6 +12933,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99166eae-c952-427b-b54e-fd97d53f327d")
+	)
+	(junction
+		(at 217.17 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ddfa32c-b379-403b-949c-0ca945b6e10a")
 	)
 	(junction
 		(at 140.97 31.75)
@@ -12947,10 +12959,22 @@
 		(uuid "a1b8e481-3cf1-40a7-aa01-0aafdd7c7a82")
 	)
 	(junction
+		(at 355.6 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2a2fe58-6e89-4a23-95d4-489ca24871fb")
+	)
+	(junction
 		(at 341.63 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa985329-6d33-4775-a5da-6b72d663be71")
+	)
+	(junction
+		(at 374.65 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc19b45e-9eed-4bd6-af4e-fff0cff288f8")
 	)
 	(junction
 		(at 140.97 57.15)
@@ -13021,6 +13045,10 @@
 		(uuid "4a9eb8b0-de0d-4e9e-a587-80cf2492a334")
 	)
 	(no_connect
+		(at 302.26 200.66)
+		(uuid "4c272c00-a354-4d38-9793-9f7f51fc4c99")
+	)
+	(no_connect
 		(at 175.26 44.45)
 		(uuid "4d050126-6691-4a2f-8fa4-d38a50695abd")
 	)
@@ -13055,10 +13083,6 @@
 	(no_connect
 		(at 302.26 173.99)
 		(uuid "7f21b4aa-0c77-4279-a1ab-e8b966da45c0")
-	)
-	(no_connect
-		(at 302.26 205.74)
-		(uuid "7f751632-3c41-4c8e-b337-812155013b5c")
 	)
 	(no_connect
 		(at 302.26 213.36)
@@ -13218,16 +13242,6 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 168.91) (xy 369.57 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "064d9399-0425-4f4a-bb2c-199735b88291")
-	)
-	(wire
-		(pts
 			(xy 347.98 220.98) (xy 351.79 220.98)
 		)
 		(stroke
@@ -13305,16 +13319,6 @@
 			(type default)
 		)
 		(uuid "0d5593ad-5e51-43dc-9d83-6a0e050b6df7")
-	)
-	(wire
-		(pts
-			(xy 209.55 72.39) (xy 209.55 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e7b8044-df19-4b06-8921-2cf6a123e0ef")
 	)
 	(wire
 		(pts
@@ -13448,6 +13452,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 236.22) (xy 351.79 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20678bcd-f87f-494e-8825-054b4815cbfa")
+	)
+	(wire
+		(pts
 			(xy 215.9 133.35) (xy 215.9 149.86)
 		)
 		(stroke
@@ -13578,7 +13592,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 78.74) (xy 275.59 78.74)
+			(xy 270.51 78.74) (xy 289.56 78.74)
 		)
 		(stroke
 			(width 0)
@@ -13748,6 +13762,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 168.91) (xy 369.57 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "417333c9-412e-4530-abcc-6d3aef92af8d")
+	)
+	(wire
+		(pts
 			(xy 298.45 81.28) (xy 270.51 81.28)
 		)
 		(stroke
@@ -13758,23 +13782,13 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 168.91) (xy 368.3 168.91)
+			(xy 347.98 168.91) (xy 355.6 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "42c35711-107a-4ab6-83be-63dfb428d3bf")
-	)
-	(wire
-		(pts
-			(xy 213.36 78.74) (xy 229.87 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44ff5983-8f09-419e-9535-f99b2fa9b5c7")
 	)
 	(wire
 		(pts
@@ -13818,16 +13832,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 81.28) (xy 229.87 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49b1db20-53f9-489d-8341-50bdea015a6e")
-	)
-	(wire
-		(pts
 			(xy 96.52 110.49) (xy 97.79 110.49)
 		)
 		(stroke
@@ -13835,16 +13839,6 @@
 			(type default)
 		)
 		(uuid "4b8762f9-dc9f-48f7-9e25-13a54a3de9a4")
-	)
-	(wire
-		(pts
-			(xy 213.36 95.25) (xy 213.36 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d5d267b-2472-43c3-9e20-4a30d6af4e6c")
 	)
 	(wire
 		(pts
@@ -13928,7 +13922,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 78.74) (xy 213.36 78.74)
+			(xy 210.82 78.74) (xy 217.17 78.74)
 		)
 		(stroke
 			(width 0)
@@ -13975,6 +13969,16 @@
 			(type default)
 		)
 		(uuid "6cfd6f38-8763-4790-858c-7a9c79a90232")
+	)
+	(wire
+		(pts
+			(xy 382.27 163.83) (xy 347.98 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb030d3-32e3-40e9-b5eb-1f8541ada00a")
 	)
 	(wire
 		(pts
@@ -14138,6 +14142,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 78.74) (xy 229.87 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd7bfd2-a2c0-4508-8463-768112cfb0b7")
+	)
+	(wire
+		(pts
 			(xy 92.71 26.67) (xy 110.49 26.67)
 		)
 		(stroke
@@ -14188,6 +14202,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 232.41) (xy 374.65 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "935f97e5-9d8d-4667-bfea-4bad71113c85")
+	)
+	(wire
+		(pts
 			(xy 52.07 72.39) (xy 69.85 72.39)
 		)
 		(stroke
@@ -14195,16 +14219,6 @@
 			(type default)
 		)
 		(uuid "93e5cd28-df6c-4ce3-bbe4-7d0d9b93bde8")
-	)
-	(wire
-		(pts
-			(xy 361.95 236.22) (xy 347.98 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "946539b0-829e-49b2-9f2c-ab919768cb2b")
 	)
 	(wire
 		(pts
@@ -14255,6 +14269,16 @@
 			(type default)
 		)
 		(uuid "9cbb1432-7c79-47c9-ad82-c2f33481ec36")
+	)
+	(wire
+		(pts
+			(xy 374.65 219.71) (xy 374.65 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e106419-5538-4f13-964a-7d8469f47364")
 	)
 	(wire
 		(pts
@@ -14328,6 +14352,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 205.74) (xy 302.26 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a15cf12f-099e-4efe-8aa5-3a633c0c364a")
+	)
+	(wire
+		(pts
 			(xy 156.21 31.75) (xy 156.21 39.37)
 		)
 		(stroke
@@ -14355,16 +14389,6 @@
 			(type default)
 		)
 		(uuid "a54fa0cf-cc17-4f80-b44b-93a29eb84871")
-	)
-	(wire
-		(pts
-			(xy 222.25 82.55) (xy 222.25 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a66f216b-bb75-4e06-a45e-bbf73ec76257")
 	)
 	(wire
 		(pts
@@ -14468,16 +14492,6 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 233.68) (xy 347.98 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b091b5f7-e51c-4cea-955b-5ed08cabcbfe")
-	)
-	(wire
-		(pts
 			(xy 59.69 196.85) (xy 68.58 196.85)
 		)
 		(stroke
@@ -14515,16 +14529,6 @@
 			(type default)
 		)
 		(uuid "b400be8f-1c85-4130-b351-2a0cbc70cbee")
-	)
-	(wire
-		(pts
-			(xy 229.87 82.55) (xy 222.25 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b92271a2-5222-4865-bfe5-ed05c94aae2d")
 	)
 	(wire
 		(pts
@@ -14588,16 +14592,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 231.14) (xy 351.79 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2a2a887-d102-4b4c-9f0c-f341e855c18e")
-	)
-	(wire
-		(pts
 			(xy 52.07 46.99) (xy 69.85 46.99)
 		)
 		(stroke
@@ -14615,6 +14609,16 @@
 			(type default)
 		)
 		(uuid "c4f16a3f-49c0-47a0-bd34-a7ccb8fa5440")
+	)
+	(wire
+		(pts
+			(xy 384.81 163.83) (xy 382.27 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c638d63d-c051-4b08-b621-c038ae600782")
 	)
 	(wire
 		(pts
@@ -14688,16 +14692,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 200.66) (xy 302.26 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdfd8c2c-b97b-4fad-a4ee-52063d87451a")
-	)
-	(wire
-		(pts
 			(xy 292.1 203.2) (xy 302.26 203.2)
 		)
 		(stroke
@@ -14735,6 +14729,16 @@
 			(type default)
 		)
 		(uuid "d225e3dd-991e-4ed2-99bd-612c06783242")
+	)
+	(wire
+		(pts
+			(xy 347.98 233.68) (xy 374.65 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d45a5e9e-168f-4368-bb19-129ef0c824bf")
 	)
 	(wire
 		(pts
@@ -15166,8 +15170,8 @@
 		)
 		(uuid "0744a38a-ecc9-444b-ab4c-21fd93aad29c")
 	)
-	(label "Drive"
-		(at 275.59 78.74 0)
+	(label "Reverse"
+		(at 289.56 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15246,7 +15250,7 @@
 		)
 		(uuid "2553cde2-1675-4776-9236-47d1da54566e")
 	)
-	(label "I2C1_CLK"
+	(label "I2C1_SCL"
 		(at 158.75 191.77 0)
 		(effects
 			(font
@@ -15285,6 +15289,16 @@
 			(justify left bottom)
 		)
 		(uuid "29820b09-79b7-4327-bee7-e6456d85d002")
+	)
+	(label "BrakePedalIn"
+		(at 374.65 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30101487-a992-4189-ad23-9fa7bdfafcc8")
 	)
 	(label "BlueLED3"
 		(at 52.07 41.91 0)
@@ -15366,16 +15380,6 @@
 		)
 		(uuid "46977141-7f24-463e-ab75-78d48c6abb00")
 	)
-	(label "ThermalShutoff"
-		(at 361.95 233.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "46d15378-31ac-4775-b367-2dbf8786dfd3")
-	)
 	(label "LSignalLightNeg"
 		(at 92.71 24.13 0)
 		(effects
@@ -15406,7 +15410,7 @@
 		)
 		(uuid "4c47df62-c6c8-44a9-abdf-fe994f1af5b7")
 	)
-	(label "Drive"
+	(label "Reverse"
 		(at 298.45 238.76 180)
 		(effects
 			(font
@@ -15416,18 +15420,8 @@
 		)
 		(uuid "4db47760-bee4-45c7-b063-ab765d13b255")
 	)
-	(label "I2C1_SDA"
-		(at 292.1 200.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e8b81de-9696-4fa9-8ab5-0694829d3002")
-	)
-	(label "Reverse"
-		(at 209.55 72.39 0)
+	(label "Drive"
+		(at 210.82 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15596,6 +15590,16 @@
 		)
 		(uuid "7a62ee49-2b2f-40f6-925b-98ed0c0e7d56")
 	)
+	(label "ThermalShutoff"
+		(at 347.98 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b82f197-335d-4d07-a3f0-ee6fb85f1b1d")
+	)
 	(label "HVActive"
 		(at 66.04 110.49 0)
 		(effects
@@ -15656,6 +15660,16 @@
 		)
 		(uuid "862bf873-77ee-46f2-aba3-65811897eeb6")
 	)
+	(label "BrakeLightOut"
+		(at 351.79 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "890d2410-6b17-45d4-8bec-a5fab3733c0b")
+	)
 	(label "LVSwitch+"
 		(at 52.07 29.21 0)
 		(effects
@@ -15666,7 +15680,7 @@
 		)
 		(uuid "8b16d264-ec83-422c-ace1-41a4b0dd0b4c")
 	)
-	(label "To_PreChargeBtn"
+	(label "From_PreChargeBtn"
 		(at 205.74 31.75 0)
 		(effects
 			(font
@@ -15715,16 +15729,6 @@
 			(justify right bottom)
 		)
 		(uuid "91b7c6f1-001d-4423-bd3e-0768a2f1062b")
-	)
-	(label "BrakePedalIn"
-		(at 361.95 236.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "92a2a13b-0e1d-45bb-9f65-3b60ed8ae0e5")
 	)
 	(label "BlueLED3"
 		(at 67.31 237.49 0)
@@ -15776,6 +15780,16 @@
 		)
 		(uuid "a09f8b91-61dc-449f-b49e-7dcac98a4939")
 	)
+	(label "I2C1_SDA"
+		(at 292.1 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1304dc8-0532-410f-b17f-d78a2d1a9a61")
+	)
 	(label "ReadyMode"
 		(at 52.07 62.23 0)
 		(effects
@@ -15816,7 +15830,7 @@
 		)
 		(uuid "b2d091ca-b013-4df8-aae3-fb7effc72a3a")
 	)
-	(label "From_PreChargeBtn"
+	(label "To_PreChargeBtn"
 		(at 52.07 52.07 0)
 		(effects
 			(font
@@ -15856,7 +15870,7 @@
 		)
 		(uuid "b8ea3cae-c843-49dd-934f-819ffff51c8d")
 	)
-	(label "From_PreChargeBtn"
+	(label "To_PreChargeBtn"
 		(at 205.74 34.29 0)
 		(effects
 			(font
@@ -15865,16 +15879,6 @@
 			(justify left bottom)
 		)
 		(uuid "bb5daca5-f33d-44df-b3a4-2f3b37930d38")
-	)
-	(label "BrakeLightOut"
-		(at 351.79 231.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "be319cd5-12e6-4337-bda7-d699fb662ca5")
 	)
 	(label "Enable"
 		(at 205.74 36.83 0)
@@ -15976,7 +15980,7 @@
 		)
 		(uuid "cfc34ee3-7608-45f6-b11d-4c734ff8ce48")
 	)
-	(label "I2C1_CLK"
+	(label "I2C1_SCL"
 		(at 292.1 203.2 0)
 		(effects
 			(font
@@ -16006,7 +16010,7 @@
 		)
 		(uuid "d218783f-e340-4dd8-a347-c3a7a1b85d3b")
 	)
-	(label "Reverse"
+	(label "Drive"
 		(at 298.45 233.68 180)
 		(effects
 			(font
@@ -16196,7 +16200,7 @@
 		)
 		(uuid "fe3c8e59-c3f6-4879-8c26-9febbf4a4348")
 	)
-	(label "To_PreChargeBtn"
+	(label "From_PreChargeBtn"
 		(at 52.07 49.53 0)
 		(effects
 			(font
@@ -16344,6 +16348,42 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 107.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 107.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 107.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 107.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -16551,6 +16591,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 323.85 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 323.85 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 323.85 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 323.85 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64b9875a-630c-4e21-b7bf-2498055eb0fb")
 		)
@@ -16612,6 +16688,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 142.24 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 142.24 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 142.24 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 142.24 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 142.24 193.04 0)
 			(effects
 				(font
@@ -16691,6 +16803,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 213.36 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 213.36 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 213.36 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 213.36 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ffbee1b9-2355-4740-94da-9b20d994111f")
 		)
@@ -16753,6 +16901,42 @@
 			)
 		)
 		(property "Description" "10kohm"
+			(at 328.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 328.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 328.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 328.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 328.93 118.11 0)
 			(effects
 				(font
@@ -17112,7 +17296,7 @@
 	)
 	(symbol
 		(lib_id "DC_Parts:GND")
-		(at 328.93 34.29 90)
+		(at 328.93 34.29 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17121,7 +17305,7 @@
 		(dnp no)
 		(uuid "0d57048e-acb4-4248-8e11-9b0f2937cb43")
 		(property "Reference" "#PWR066"
-			(at 335.28 34.29 0)
+			(at 322.58 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17130,7 +17314,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 332.74 34.2899 90)
+			(at 325.12 34.2901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17282,6 +17466,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 74.93 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 74.93 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 74.93 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 74.93 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f0f31d00-81cf-42af-b717-cd25a89629d2")
 		)
@@ -17420,6 +17640,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 86.36 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 86.36 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 86.36 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 86.36 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "54fc26a7-7948-4126-bca8-7a8435971557")
 		)
@@ -17481,6 +17737,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 110.49 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 110.49 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 110.49 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 110.49 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 110.49 279.4 0)
 			(effects
 				(font
@@ -17676,6 +17968,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "64c0dcfb-bbef-4c27-a393-2bf3391b4879")
 		)
@@ -17806,6 +18134,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 83.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 83.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 83.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 83.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 83.82 123.19 0)
 			(effects
 				(font
@@ -18016,6 +18380,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 270.51 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 270.51 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 270.51 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 270.51 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eeafc12a-632c-4123-a98d-edf469bd1c4e")
 		)
@@ -18042,7 +18442,7 @@
 		(fields_autoplaced yes)
 		(uuid "20f27760-0470-485d-843e-8930938435fb")
 		(property "Reference" "R9"
-			(at 93.218 255.27 0)
+			(at 93.218 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18079,6 +18479,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 86.36 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 86.36 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 86.36 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 86.36 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 86.36 261.62 0)
 			(effects
 				(font
@@ -18155,6 +18591,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 270.51 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 270.51 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 270.51 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 270.51 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "398bf7b3-10b6-4bdd-a7a3-ef40f3616e36")
 		)
@@ -18218,6 +18690,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 69.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 69.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 69.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 69.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 69.85 24.13 0)
 			(effects
 				(font
@@ -18467,6 +18975,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 68.58 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 68.58 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 68.58 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 68.58 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b11f14bd-a193-42ff-a2a6-1b3e0960c5d1")
 		)
@@ -18531,6 +19075,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 83.82 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 83.82 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 83.82 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 83.82 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 83.82 97.79 0)
 			(effects
 				(font
@@ -18659,6 +19239,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 76.2 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 76.2 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 76.2 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 76.2 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "00b07b1e-8f75-4741-9196-d9511fbe9387")
 		)
@@ -18676,7 +19292,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 222.25 85.09 270)
+		(at 229.87 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18685,7 +19301,7 @@
 		(fields_autoplaced yes)
 		(uuid "26e95a76-ebcd-4358-aadb-3f880e26ab09")
 		(property "Reference" "#PWR048"
-			(at 215.9 85.09 0)
+			(at 223.52 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18694,7 +19310,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 85.0899 90)
+			(at 226.06 81.2799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18703,7 +19319,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 85.09 0)
+			(at 229.87 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18712,7 +19328,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 85.09 0)
+			(at 229.87 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18721,7 +19337,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 85.09 0)
+			(at 229.87 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18788,6 +19404,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 88.9 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 88.9 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 88.9 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 88.9 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 88.9 153.67 0)
 			(effects
 				(font
@@ -18872,116 +19524,6 @@
 			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DriverControlsLib:RC1206FR-102K2L")
-		(at 85.09 279.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29b62c0b-b19d-4d94-bb1a-221b37a0584d")
-		(property "Reference" "R4"
-			(at 91.44 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC1206FR-102K2L"
-			(at 91.44 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DriverControlsLib:RES_RC1206_YAG"
-			(at 85.09 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "RC1206FR-102K2L"
-			(at 85.09 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "12"
-			(at 85.09 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Yageo"
-			(at 85.09 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65mm"
-			(at 85.09 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 85.09 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "aa53c910-6bb6-4b99-b43e-47f141501815")
-		)
-		(pin "1"
-			(uuid "f6a18dec-95f4-42a7-9357-9f3cff4b5798")
-		)
-		(instances
-			(project ""
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -19226,6 +19768,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 76.2 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 76.2 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 76.2 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 76.2 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c940ddc0-dfaf-42f5-a1a6-cc0500db5c24")
 		)
@@ -19289,6 +19867,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 110.49 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 110.49 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 110.49 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 110.49 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 110.49 24.13 0)
 			(effects
 				(font
@@ -19367,76 +19981,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DriverControlsLib:C1F_3")
-		(at 347.98 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d7f2649-cb1c-461e-a67a-9510b97d26d2")
-		(property "Reference" "U6"
-			(at 353.06 157.48 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "C1F 3"
-			(at 353.06 160.02 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "DriverControlsLib:C1_BEL"
-			(at 347.98 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "C1F 3"
-			(at 347.98 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 347.98 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee92bb13-c14b-4776-938e-3fdb7d39d46b")
-		)
-		(pin "2"
-			(uuid "9b45ae81-c71e-4fa3-b293-a7c3d1a77d85")
-		)
-		(instances
-			(project ""
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DriverControlsLib:PPTC021LFBN-RC")
 		(at 218.44 133.35 0)
 		(unit 1)
@@ -19485,6 +20029,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 218.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 218.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 218.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 218.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 218.44 133.35 0)
 			(effects
 				(font
@@ -19735,6 +20315,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 156.21 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 156.21 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 156.21 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 156.21 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "74e8fbc3-005e-4d8b-9722-0ea83bf3a273")
 		)
@@ -19805,6 +20421,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8bb035d3-be64-495f-8885-df39f3d88c15")
 		)
@@ -19867,6 +20519,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 323.85 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 323.85 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 323.85 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 323.85 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 323.85 64.77 0)
 			(effects
 				(font
@@ -19959,7 +20647,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 368.3 176.53 0)
+		(at 355.6 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19968,7 +20656,7 @@
 		(fields_autoplaced yes)
 		(uuid "34546354-6061-4602-98c6-e7d5555b7dd2")
 		(property "Reference" "#PWR082"
-			(at 368.3 182.88 0)
+			(at 355.6 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19977,7 +20665,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 368.3 181.61 0)
+			(at 355.6 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19985,7 +20673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 176.53 0)
+			(at 355.6 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19994,7 +20682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 176.53 0)
+			(at 355.6 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20003,7 +20691,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 368.3 176.53 0)
+			(at 355.6 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20078,6 +20766,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 88.9 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 88.9 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 88.9 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 88.9 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ca0fff9-de6e-4824-ae71-63b141c694f6")
 		)
@@ -20140,6 +20864,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 140.97 31.75 0)
 			(effects
 				(font
@@ -20294,6 +21054,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 107.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 107.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 107.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 107.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A"
 			(uuid "47b7dce1-7f8e-4bc0-aed0-583294946952")
 		)
@@ -20392,6 +21188,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 339.09 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 339.09 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 339.09 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 339.09 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "818060c3-e8b7-4ddb-b93f-74ee86556a2b")
 		)
@@ -20405,6 +21237,72 @@
 			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 374.65 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d5cd2fc-f07a-449c-ad47-17e2ea27a7f4")
+		(property "Reference" "#PWR083"
+			(at 374.65 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 374.65 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 374.65 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 374.65 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1735313-9521-49fb-a6ef-3c2a6198237b")
+		)
+		(instances
+			(project "DC"
+				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -20457,6 +21355,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 102.87 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 102.87 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 102.87 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 102.87 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 102.87 181.61 0)
 			(effects
 				(font
@@ -20649,6 +21583,42 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 175.26 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 175.26 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 175.26 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 175.26 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -20920,6 +21890,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 227.33 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 227.33 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 227.33 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 227.33 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "88ae5ddb-0bdd-48fc-9e47-d277d358c03e")
 		)
@@ -21048,6 +22054,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 142.24 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 142.24 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 142.24 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 142.24 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 142.24 186.69 0)
 			(effects
 				(font
@@ -21242,6 +22284,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 175.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 175.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 175.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 175.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "L2"
 			(uuid "77aac339-372b-4f7d-9727-c8db3f82d8fb")
 		)
@@ -21334,6 +22412,42 @@
 		)
 		(property "Description" ""
 			(at 218.44 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 218.44 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 218.44 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 218.44 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 218.44 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21458,6 +22572,42 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 68.58 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 68.58 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 68.58 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 68.58 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -21715,6 +22865,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 73.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 73.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 73.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 73.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "85995ca4-3243-4dbb-b952-e458c7fdac0c")
 		)
@@ -21778,6 +22964,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 354.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 354.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 354.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 354.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 354.33 54.61 0)
 			(effects
 				(font
@@ -21906,6 +23128,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 73.66 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 73.66 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 73.66 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 73.66 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "836ae5cb-bea0-4875-bf59-72d3f40f4d2b")
 		)
@@ -21922,35 +23180,35 @@
 		)
 	)
 	(symbol
-		(lib_id "DriverControlsLib:C1206C104K5RACTU")
-		(at 368.3 168.91 270)
+		(lib_id "DriverControlsLib:RC1206FR-073K3L")
+		(at 374.65 246.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "52ffb32e-c1ba-4ffc-a820-73fc0e31021d")
-		(property "Reference" "C9"
-			(at 372.11 171.4499 90)
+		(uuid "52c5654c-0bce-462a-86e0-de7770108710")
+		(property "Reference" "R37"
+			(at 381 239.7758 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "C1206C104K5RACTU"
-			(at 372.11 173.9899 90)
+		(property "Value" "RC1206FR-073K3L"
+			(at 378.46 240.03 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "DriverControlsLib:CAPC340180_88N_KEM"
-			(at 368.3 168.91 0)
+		(property "Footprint" "DriverControlsLib:RC1206N_YAG"
+			(at 374.65 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21959,8 +23217,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 368.3 168.91 0)
+		(property "Datasheet" "RC1206FR-073K3L"
+			(at 374.65 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21970,7 +23228,151 @@
 			)
 		)
 		(property "Description" ""
-			(at 368.3 168.91 0)
+			(at 374.65 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 374.65 246.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 374.65 246.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 374.65 246.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 374.65 246.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b0023e2-831a-4e50-abef-12e003b0fb01")
+		)
+		(pin "1"
+			(uuid "4ed42a28-82e9-4f9e-91ab-f2ae3f59b60c")
+		)
+		(instances
+			(project ""
+				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DriverControlsLib:C1206C104K5RACTU")
+		(at 355.6 168.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52ffb32e-c1ba-4ffc-a820-73fc0e31021d")
+		(property "Reference" "C9"
+			(at 359.41 171.4499 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C1206C104K5RACTU"
+			(at 359.41 173.9899 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DriverControlsLib:CAPC340180_88N_KEM"
+			(at 355.6 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 355.6 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 355.6 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 355.6 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 355.6 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 355.6 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 355.6 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22220,6 +23622,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 156.21 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 156.21 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 156.21 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 156.21 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3b038c07-099f-475f-b71c-6e81cf9d260a")
 		)
@@ -22349,6 +23787,42 @@
 			)
 		)
 		(property "Description" "10kohm"
+			(at 328.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 328.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 328.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 328.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 328.93 74.93 0)
 			(effects
 				(font
@@ -22800,6 +24274,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 156.21 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 156.21 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 156.21 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 156.21 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9023be99-63cd-401f-b24a-f668df0b3629")
 		)
@@ -22871,6 +24381,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 86.36 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 86.36 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 86.36 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 86.36 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "02333316-8234-4356-91d6-8790a7e4105a")
 		)
@@ -22881,6 +24427,114 @@
 			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DriverControlsLib:RC1206FR-0710KL")
+		(at 374.65 232.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f83df9f-2b3e-4c17-a740-3690c8a9ed27")
+		(property "Reference" "R36"
+			(at 381 224.7898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RC1206FR-0710KL"
+			(at 381 227.3298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DriverControlsLib:RC1206N_YAG"
+			(at 374.65 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RC1206FR-0710KL"
+			(at 374.65 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 374.65 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 374.65 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 374.65 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 374.65 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 374.65 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d29cd1ea-3692-4cd2-bc6e-5d00616b5394")
+		)
+		(pin "1"
+			(uuid "7c9fe317-2ee8-4035-9d81-dba6a3e77add")
+		)
+		(instances
+			(project "DC"
+				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -23014,6 +24668,72 @@
 			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 382.27 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62455911-1473-4db6-b02a-f9ce53f6422e")
+		(property "Reference" "#PWR084"
+			(at 382.27 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 382.27 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 382.27 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 382.27 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 382.27 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79a70287-3109-43fc-919a-1a3695e4acac")
+		)
+		(instances
+			(project "DC"
+				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -23325,6 +25045,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 166.37 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 166.37 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 166.37 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 166.37 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "90e3632f-0766-40b3-96e3-58d9c3364e1d")
 		)
@@ -23421,6 +25177,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 83.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 83.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 83.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 83.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc0a0c82-1f5b-4b8a-b9d1-5c04df44cdc3")
 		)
@@ -23438,7 +25230,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 213.36 95.25 180)
+		(at 217.17 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23446,7 +25238,7 @@
 		(dnp no)
 		(uuid "6acbbeb4-a7df-4cde-9fb8-ed107664b828")
 		(property "Reference" "#PWR047"
-			(at 213.36 91.44 0)
+			(at 217.17 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23455,7 +25247,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 213.3599 99.06 90)
+			(at 217.1699 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23464,7 +25256,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 95.25 0)
+			(at 217.17 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23473,7 +25265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 95.25 0)
+			(at 217.17 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23482,7 +25274,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 213.36 95.25 0)
+			(at 217.17 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23549,6 +25341,42 @@
 			)
 		)
 		(property "Description" "10kohm"
+			(at 140.97 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 140.97 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 140.97 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 140.97 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 140.97 57.15 0)
 			(effects
 				(font
@@ -23828,6 +25656,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 323.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 323.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 323.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 323.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1781795f-b8ad-435c-a7e4-52a518cecd5d")
 		)
@@ -23890,6 +25754,42 @@
 			)
 		)
 		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, DIP-8"
+			(at 157.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 157.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 157.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 157.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 157.48 128.27 0)
 			(effects
 				(font
@@ -23986,6 +25886,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 88.9 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 88.9 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 88.9 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 88.9 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "72f678fa-e4e4-4158-9a11-6ca9082a2f98")
 		)
@@ -24048,6 +25984,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 102.87 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 102.87 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 102.87 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 102.87 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 102.87 196.85 0)
 			(effects
 				(font
@@ -24119,6 +26091,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 354.33 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 354.33 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 354.33 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 354.33 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 354.33 118.11 0)
 			(effects
 				(font
@@ -24266,6 +26274,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 270.51 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 270.51 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 270.51 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 270.51 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "77993c0f-3ec2-40d2-966f-c442f385dcca")
 		)
@@ -24328,6 +26372,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 88.9 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 88.9 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 88.9 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 88.9 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 88.9 167.64 0)
 			(effects
 				(font
@@ -24407,6 +26487,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 226.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 226.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 226.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 226.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5498a184-60ed-472f-8f05-894924f8a8f4")
 		)
@@ -24469,6 +26585,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 101.6 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 101.6 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 101.6 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 101.6 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 101.6 261.62 0)
 			(effects
 				(font
@@ -24728,6 +26880,42 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 224.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 224.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 224.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 224.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -25017,6 +27205,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 229.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 229.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 229.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 229.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "66d4e42c-7301-4954-ab2a-ec43fc706b27")
 		)
@@ -25099,6 +27323,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 140.97 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 140.97 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 140.97 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 140.97 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c6bdffe9-e16d-4457-a27e-007e6a802cca")
 		)
@@ -25161,6 +27421,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 323.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 323.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 323.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 323.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 323.85 85.09 0)
 			(effects
 				(font
@@ -25306,6 +27602,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 101.6 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 101.6 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 101.6 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 101.6 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d4ce3804-bd28-4d1d-8602-d4c2b9a99da3")
 		)
@@ -25369,6 +27701,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 354.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 354.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 354.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 354.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 354.33 34.29 0)
 			(effects
 				(font
@@ -25456,6 +27824,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 107.95 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 107.95 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 107.95 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 107.95 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A"
 			(uuid "606a31ac-9705-4e56-80e0-eb9f0eb10dd3")
 		)
@@ -25518,6 +27922,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 284.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 284.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 284.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 284.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 284.48 87.63 0)
 			(effects
 				(font
@@ -25663,6 +28103,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 323.85 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 323.85 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 323.85 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 323.85 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8f18b17a-1743-40bb-a4c2-66eafe7895b4")
 		)
@@ -25783,6 +28259,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "L2"
 			(uuid "b7ae755f-44a4-4eba-a760-a1f47cd613d0")
 		)
@@ -25820,6 +28332,114 @@
 			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DriverControlsLib:C1206C104K5RACTU")
+		(at 382.27 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "949db0dc-8ef7-4337-afe7-681854d01e8e")
+		(property "Reference" "C10"
+			(at 386.08 166.3699 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C1206C104K5RACTU"
+			(at 386.08 168.9099 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DriverControlsLib:CAPC340180_88N_KEM"
+			(at 382.27 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 382.27 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 382.27 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 382.27 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 382.27 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 382.27 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 382.27 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd65b1c5-8f95-4971-8a4f-e2744f9a1a37")
+		)
+		(pin "2"
+			(uuid "25c8d1cf-2f53-4614-94f3-6f6f0be1f15f")
+		)
+		(instances
+			(project "DC"
+				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -25947,6 +28567,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 102.87 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 102.87 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 102.87 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 102.87 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0af29391-6707-4d96-bca9-d29c6ca8add0")
 		)
@@ -26011,6 +28667,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 168.91 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 168.91 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 168.91 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 168.91 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 168.91 232.41 0)
 			(effects
 				(font
@@ -26145,6 +28837,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 76.2 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 76.2 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 76.2 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 76.2 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f9ce498f-d92e-4b1c-ad07-090ba6ffea57")
 		)
@@ -26207,6 +28935,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 101.6 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 101.6 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 101.6 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 101.6 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 101.6 237.49 0)
 			(effects
 				(font
@@ -26286,6 +29050,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 212.09 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 212.09 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 212.09 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 212.09 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "127e5d8e-5bd1-4318-a1cd-51d7dbb5825a")
 		)
@@ -26355,6 +29155,42 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 212.09 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 212.09 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 212.09 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 212.09 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -26589,6 +29425,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 339.09 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 339.09 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 339.09 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 339.09 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "7b495ff0-2fce-4751-b2bc-71967ebd1bd5")
 		)
@@ -26653,6 +29525,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 142.24 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 142.24 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 142.24 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 142.24 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 142.24 195.58 0)
 			(effects
 				(font
@@ -27078,6 +29986,77 @@
 		)
 	)
 	(symbol
+		(lib_id "DriverControlsLib:C1F_250")
+		(at 384.81 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba1145ef-8304-4f79-b879-7d0d73fd31a2")
+		(property "Reference" "U6"
+			(at 390.144 160.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "C1F 250"
+			(at 389.89 167.005 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DriverControlsLib:C1_BEL"
+			(at 384.81 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C1F 250"
+			(at 384.81 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 384.81 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79fbc1a9-b182-4a1d-beb4-547e24e2d688")
+		)
+		(pin "2"
+			(uuid "149e8bae-c678-4c41-9b53-41073daaaffb")
+		)
+		(instances
+			(project ""
+				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 200.66 59.69 90)
 		(unit 1)
@@ -27324,6 +30303,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 101.6 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 101.6 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 101.6 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 101.6 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 101.6 250.19 0)
 			(effects
 				(font
@@ -27582,6 +30597,42 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 325.12 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 325.12 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 325.12 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 325.12 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -28010,6 +31061,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 102.87 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 102.87 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 102.87 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 102.87 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "31e52dd8-5095-48de-b3a3-aa766bf56031")
 		)
@@ -28105,6 +31192,42 @@
 					(size 1.8288 1.8288)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 339.09 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 339.09 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 339.09 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 339.09 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -28275,6 +31398,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 339.09 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 339.09 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 339.09 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 339.09 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "5973ef6a-b222-424b-be9c-0af9faf7144f")
 		)
@@ -28295,7 +31454,7 @@
 	)
 	(symbol
 		(lib_id "DriverControlsLib:RC1206FR-0710KL")
-		(at 213.36 78.74 270)
+		(at 217.17 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28304,7 +31463,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf03cef8-52b5-48f0-8797-8bd84a1042ba")
 		(property "Reference" "R21"
-			(at 215.9 83.8199 90)
+			(at 219.71 83.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28313,7 +31472,7 @@
 			)
 		)
 		(property "Value" "RC1206FR-0710KL"
-			(at 215.9 86.3599 90)
+			(at 219.71 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28322,7 +31481,7 @@
 			)
 		)
 		(property "Footprint" "DriverControlsLib:RC1206N_YAG"
-			(at 213.36 78.74 0)
+			(at 217.17 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28332,7 +31491,7 @@
 			)
 		)
 		(property "Datasheet" "RC1206FR-0710KL"
-			(at 213.36 78.74 0)
+			(at 217.17 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28342,7 +31501,43 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 78.74 0)
+			(at 217.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 217.17 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 217.17 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 217.17 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 217.17 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28604,6 +31799,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 68.58 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 68.58 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 68.58 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 68.58 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "257ee2e0-f779-40bd-8157-c406341b81ca")
 		)
@@ -28740,6 +31971,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 86.36 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 86.36 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 86.36 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 86.36 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "01c326ac-177c-4c3d-a15e-31cde7486c5d")
 		)
@@ -28857,6 +32124,42 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 76.2 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 76.2 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 76.2 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 76.2 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -28980,6 +32283,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 73.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 73.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 73.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 73.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e773a37b-b028-4c8a-9193-f3383412c3c9")
 		)
@@ -29042,6 +32381,42 @@
 			)
 		)
 		(property "Description" "10kohm"
+			(at 328.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 328.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 328.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 328.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 328.93 34.29 0)
 			(effects
 				(font
@@ -29185,6 +32560,42 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 142.24 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 142.24 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 142.24 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 142.24 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -29419,6 +32830,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 339.09 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 339.09 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 339.09 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 339.09 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d9cce5e7-0f33-468e-9bcd-c62253f55d0f")
 		)
@@ -29484,6 +32931,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 101.6 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 101.6 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 101.6 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 101.6 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 101.6 214.63 0)
 			(effects
 				(font
@@ -29742,6 +33225,42 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 325.12 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 325.12 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 325.12 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 325.12 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -30087,6 +33606,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 68.58 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 68.58 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 68.58 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 68.58 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a79372fe-4411-4da3-a3f8-79d6f2b06463")
 		)
@@ -30150,6 +33705,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 354.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 354.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 354.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 354.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 354.33 74.93 0)
 			(effects
 				(font
@@ -30545,6 +34136,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 224.79 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 224.79 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 224.79 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 224.79 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "L2"
 			(uuid "6494b036-bfb8-4a72-bb88-cb294ecd484a")
 		)
@@ -30776,6 +34403,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 102.87 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 102.87 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 102.87 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 102.87 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "649c7352-26c3-4e66-be1d-5caea798d6c5")
 		)
@@ -30838,6 +34501,42 @@
 			)
 		)
 		(property "Description" "10kohm"
+			(at 328.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 328.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 328.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 328.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 328.93 54.61 0)
 			(effects
 				(font
@@ -30917,6 +34616,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 86.36 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 86.36 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 86.36 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 86.36 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3ae25d62-7685-46d8-a875-7f96c3c4af5b")
 		)
@@ -30934,7 +34669,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 358.14 163.83 270)
+		(at 394.97 163.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30943,7 +34678,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa2f2278-4d18-4228-8a52-12185d543dc1")
 		(property "Reference" "#PWR081"
-			(at 354.33 163.83 0)
+			(at 391.16 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30952,7 +34687,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 361.95 163.8299 90)
+			(at 398.78 163.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30961,7 +34696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 358.14 163.83 0)
+			(at 394.97 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30970,7 +34705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 358.14 163.83 0)
+			(at 394.97 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30979,7 +34714,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 358.14 163.83 0)
+			(at 394.97 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31047,6 +34782,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 354.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 354.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 354.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 354.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 354.33 95.25 0)
 			(effects
 				(font
@@ -31131,6 +34902,113 @@
 			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DriverControlsLib:RC1206FR-072K32L")
+		(at 85.09 279.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc04178b-1168-4b76-ae95-a4ada2e332b4")
+		(property "Reference" "R4"
+			(at 91.948 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC1206FR-072K32L"
+			(at 91.948 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DriverControlsLib:RC1206N_YAG"
+			(at 85.09 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RC1206FR-072K32L"
+			(at 85.09 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 85.09 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 85.09 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 85.09 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 85.09 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96be7688-9516-4ef8-ab3a-891661298ddb")
+		)
+		(pin "1"
+			(uuid "36c2bc23-b442-4c7c-8f7e-d9458edf0ff0")
+		)
+		(instances
+			(project "DC"
+				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -31320,6 +35198,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" ""
+			(at 262.89 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 262.89 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 262.89 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 262.89 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0b70cf37-5ecd-4be1-8cfe-3b4b1d67178a")
 		)
@@ -31440,6 +35354,42 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 76.2 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 76.2 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 76.2 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 76.2 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -31706,6 +35656,42 @@
 			)
 		)
 		(property "Description" "10kohm"
+			(at 328.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 328.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 328.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 328.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
 			(at 328.93 95.25 0)
 			(effects
 				(font
