@@ -5,7 +5,7 @@ Vehicle Control Unit PCB for Western Sunstang
 
 ## Overview
 
-The **Sunstang VCU 2026** is a custom-designed Vehicle Control Unit PCB developed in **KiCad v6+** for the Sunstang solar vehicle competing in the American Solar Challenge.
+The **Sunstang VCU 2026** is a custom-designed Vehicle Control Unit PCB developed in **KiCad v6+**.
 
 The board integrates driver inputs, high-voltage enable logic, lighting control, safety interlocks, and vehicle state management into a centralized low-voltage control system.
 
@@ -40,7 +40,7 @@ The diagram below shows the high-level integration of:
 - BMS interface
 
 <p align="center">
-  <img src="docs/vcu_system.png" width="800">
+  <img src="VCU_System.png" width="800">
 </p>
 
 ---
