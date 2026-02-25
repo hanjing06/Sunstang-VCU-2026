@@ -122,13 +122,3 @@ The VCU manages the following subsystems:
 | MCU Logic Voltage | 3.3V |
 | Microcontroller | STM32F302R8 |
 | Design Tool | KiCad v6+ |
-
----
-
-## Repository Structure
-Sunstang-VCU-2026/
-├── Schematic/ # KiCad schematic files
-├── PCB/ # PCB layout files
-├── Fabrication/ # Gerbers and manufacturing outputs
-├── BOM/ # Bill of materials
-└── README.md
