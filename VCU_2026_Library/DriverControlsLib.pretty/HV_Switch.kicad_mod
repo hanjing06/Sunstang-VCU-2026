@@ -383,15 +383,15 @@
 	(pad "1" thru_hole rect
 		(at -11.685 0 90)
 		(size 8 2)
-		(drill oval 6.39 0.76)
-		(layers "*.Cu" "*.Mask")
+		(drill oval 7 0.9)
+		(layers "*.Cu" "*.Mask" "Eco1.User")
 		(remove_unused_layers no)
 		(uuid "0084c6e0-0e6d-41e4-9f08-84170b83d17b")
 	)
 	(pad "2" thru_hole rect
 		(at 11.685 0 90)
 		(size 8 2)
-		(drill oval 6.39 0.76)
+		(drill oval 7 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "7da3359a-b5d2-4921-a4a4-524f86881656")
